@@ -9,9 +9,12 @@ new Swiper('.image-slider-vert', {
 
 	direction: 'vertical',
 
-
-
-
+	effect: 'coverflow',
+	coverflowEffect: {
+		rotate: 20,
+		stretch: 50,
+		slideShadows: true,
+	}
 });
 
 
@@ -44,15 +47,13 @@ new Swiper('.image-slider-1', {
 
 	//loop: true,
 
-	effect: 'cube',
-
-	cubeEffect: {
+	effect: 'coverflow',
+	coverflowEffect: {
+		rotate: 100,
+		stretch: 30,
 		slideShadows: true,
-		shadow: false,
-		// 	shadowOffset: 5,
-		// 	shadowScale: 0.94
+	}
 
-	},
 });
 
 new Swiper('.image-slider-2', {
@@ -84,14 +85,11 @@ new Swiper('.image-slider-2', {
 
 	//loop: true,
 
-	effect: 'cube',
-
-	cubeEffect: {
+	effect: 'coverflow',
+	coverflowEffect: {
+		rotate: 100,
+		stretch: 30,
 		slideShadows: true,
-		shadow: false,
-		// 	shadowOffset: 5,
-		// 	shadowScale: 0.94
-
-	},
+	}
 });
 

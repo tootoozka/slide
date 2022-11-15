@@ -95,8 +95,6 @@ h6 {
 /* -webkit-overflow-scrolling: touch;
 animation-play-state: paused !important; */
 
-@import url('https://fonts.googleapis.com/css2?family=Play:wght@700&display=swap');
-
 body {
 	background-color: rgb(223, 209, 179);
 }
@@ -114,7 +112,7 @@ body {
 
 .image-slider-1,
 .image-slider-2 {
-	padding: 30px 0 70px 0;
+	/* padding: 30px 0 70px 0; */
 
 }
 
@@ -154,6 +152,7 @@ body {
 
 .image-slider-1__text,
 .image-slider-2__text {
+
 
 	padding: 25vh 6px 0 6px;
 	text-align: center;
@@ -199,9 +198,27 @@ body {
 }
 
 .image-slider-vert__vert-text {
+	z-index: 900;
 	position: absolute;
 	top: 7vh;
 	left: 7vw;
 	font-size: 20px;
 	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.image-slider-vert__slide {
+	background-image: url(img/flag.jpg);
+	background-position-x: -100px;
+	background-size: auto 100vh;
+	background-repeat: no-repeat;
+	/* background-size: cover; */
+}
+
+
+
+
+.image-slider-1__slide,
+.image-slider-2__slide {
+
+	background-color: rgba(223, 209, 179, 0.75);
 }
