@@ -187,14 +187,18 @@ body {
 	border-width: 6px;
 	border-radius: 40px;
 	box-shadow: 0px 11px 24px 1px rgb(34 60 80);
+
+
+
 }
 
-
-
-
-.button__button:active {
+.button__button:active,
+.button__button:hover {
 	border-style: inset;
 	background: linear-gradient(180deg, rgb(250, 222, 185) 0%, rgba(255, 218, 166, 1) 48%, rgb(243, 228, 206) 76%);
+
+
+
 }
 
 
@@ -220,16 +224,13 @@ body {
 	background-position-x: -100px;
 	background-size: auto 100vh;
 	background-repeat: no-repeat;
-	/* background-size: cover; */
 }
-
-
-
 
 .image-slider-1__slide,
 .image-slider-2__slide {
 
-	background-color: rgba(223, 209, 179, 0.75);
+	/* background-color: rgba(223, 209, 179, 0.75); */
+	background: radial-gradient(circle, rgba(255, 243, 227, 0.75) 20%, rgba(255, 218, 166, 0.75) 44%, rgba(151, 128, 92, 0.75) 76%);
 }
 
 a {
