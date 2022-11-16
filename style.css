@@ -192,13 +192,9 @@ body {
 
 }
 
-.button__button:active,
-.button__button:hover {
+.button__button:active {
 	border-style: inset;
 	background: linear-gradient(180deg, rgb(250, 222, 185) 0%, rgba(255, 218, 166, 1) 48%, rgb(243, 228, 206) 76%);
-
-
-
 }
 
 
